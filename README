@@ -4,7 +4,7 @@ A compojure skeleton that can be deployed on Heroku
 
 ## Usage
 locally can be run with
-lein run server
+lein ring server
 or
 lein run -m simple-heroku.core
 lein run -m simple-heroku.core 8001 or whatever valid port
