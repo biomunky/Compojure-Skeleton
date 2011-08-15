@@ -9,6 +9,14 @@ or
 lein run -m simple-heroku.core
 lein run -m simple-heroku.core 8001 or whatever valid port
 
+## Heroku
+Create an account & follow instructions
+clone the repo
+heroku create --stack cedar
+git push heroku master
+heroku scale web=1
+heroku open
+
 ## License
 
 Copyright (C) 2011 FIXME
